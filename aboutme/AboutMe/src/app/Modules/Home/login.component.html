@@ -1,0 +1,14 @@
+<div class="container">
+        <div class="form-group">
+                <label for="userName" >User Name</label>
+    <input type="text" class="form-control" id="userName" [(ngModel)]="userName" placeholder="Enter User Name">
+    </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                    <span class="input-group-text" >Password</span>
+                
+            </div>
+            <input type="text" class="form-control"  [(ngModel)]="password">
+        </div>
+        <button type="button" (click)="login()">Login</button>
+</div>
